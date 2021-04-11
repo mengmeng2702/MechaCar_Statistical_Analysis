@@ -2,11 +2,11 @@
 
 ## Linear Regression to Predict MPG
 
-![del_1](images/del_1.png)
- 
- Linear regression can be used as a predictive modeling tool, and also as an exploratory tool to quantify and measure the variability of two of more correlated variables.
+Linear regression can be used as a predictive modeling tool, and also as an exploratory tool to quantify and measure the variability of two of more correlated variables.
 
- The above statistics of the multiple linear regression model illustrates that the slope, vehicle_length, and ground_clearance have highly significant p-values, while vehicle_weight has normal significant p-value. Those indicates that we can reject the null hypothesis which means there is a relationship between the vehicle_length and mpg; ground_clearce and mpg; and vehicle_wight and mpg. The slope of the linear model is not considered to be zero since it does have high significant p-value with three asterisks as well.
+The below statistics of the multiple linear regression model illustrates that the slope, vehicle_length, and ground_clearance have highly significant p-values, while vehicle_weight has normal significant p-value. Those indicates that we can reject the null hypothesis which means there is a relationship between the vehicle_length and mpg; ground_clearce and mpg; and vehicle_wight and mpg. The slope of the linear model is not considered to be zero since it does have high significant p-value with three asterisks as well.
+
+![del_1](images/del_1.png)
 
 This linear model is overfitting, the model performs well with the current dataset, but fails to generalize and predict furture data correctly. 
 
